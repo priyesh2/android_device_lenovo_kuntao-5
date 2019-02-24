@@ -208,10 +208,8 @@ PRODUCT_PACKAGES += \
 
 # Healthd
 PRODUCT_PACKAGES += \
-    android.hardware.health@2.0-service.kuntao
-
-DEVICE_FRAMEWORK_MANIFEST_FILE += \
-    system/libhidl/vintfdata/manifest_healthd_exclude.xml
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-service
 
 # IMS
 PRODUCT_PACKAGES += \
