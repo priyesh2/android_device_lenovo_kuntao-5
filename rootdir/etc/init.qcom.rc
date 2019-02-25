@@ -925,10 +925,6 @@ on post-fs-data
     # Create directory for modem_config
     mkdir /data/vendor/modem_config 0570 radio root
 
-    # Create the directories used by DPM subsystem
-    mkdir /data/dpm 0771 system system
-    mkdir /data/dpm/nsrm 0771 system system
-
     #Create IOP  deamon related dirs
     mkdir /data/vendor/iop 0700 root system
 
