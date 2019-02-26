@@ -20,47 +20,10 @@
     <string name="category_system">Titreşim</string>
     <string name="vib_strength_title_head">Titreşim yoğunluğu</string>
 
-    <string name="display_title">Ekran</string>
-    <string name="device_doze_title">Ortam ekranı</string>
-
     <!-- Ambient Display -->
+    <string name="display_title">Ekran</string>
     <string name="ambient_display_title">Ortam ekranı</string>
-    <string name="ambient_display_title_summary">Ortam ekranı yapılandır</string>
-    <string name="ambient_display_enable_title">Ortam ekranı</string>
-    <string name="ambient_display_enable_summary">Bildirim geldiğinde ekranı uyandır</string>
-    <string name="ambient_display_gestures_title">Ortam ekranı hareketleri</string>
-    <string name="ambient_display_gestures_summary">Ekranı uyandırmak için ek hareketler</string>
-    <string name="ambient_display_summary">Bildirim geldiğinde ekranı uyandırma</string>
-    <string name="ambient_display_summary_on">Bildirim geldiğinde ekran uyanacak</string>
-    <string name="ambient_display_summary_off">Bildirim geldiğinde ekran uyanmayacak</string>
-
-    <!-- Tilt sensor -->
-    <string name="tilt_sensor_title">Eğim sensörü</string>
-
-    <!-- Pickup sensor -->
-    <string name="pickup_sensor_title">Kaldırma sensörü</string>
-
-    <!-- Proximity sensor -->
-    <string name="proximity_sensor_title">Yakınlık sensörü</string>
-
-    <!-- Hand wave gesture -->
-    <string name="hand_wave_gesture_title">El sallama</string>
-    <string name="hand_wave_gesture_summary">El sallayınca bildirimleri göster</string>
-    <string name="hand_wave_gesture_flat_title">Yönlendirme algıla</string>
-    <string name="hand_wave_gesture_flat_summary">Sadece telefon düz bir yüzeye yüz üstü yatırılmışsa uyandır</string>
-
-    <!-- Pick-up gesture -->
-    <string name="pick_up_gesture_title">Kaldırma</string>
-    <string name="pick_up_gesture_summary">Telefonu kaldırınca bildirimleri göster</string>
-
-    <!-- Pocket gesture -->
-    <string name="pocket_gesture_title">Cep modu</string>
-    <string name="pocket_gesture_summary">Cepten çıkarıldığında bildirim göster</string>
-
-    <!-- Proximity wake -->
-    <string name="proximity_wake_title">Yakınlık uyandırma</string>
-    <string name="proximity_wake_enable_title">Yakınlık uyandırma</string>
-    <string name="proximity_wake_enable_summary">El dalgasında cihazı uyandır</string>
+    <string name="ambient_display_title_summary">Ortam ekranını yapılandır</string>
 
     <!-- s2s -->
     <string name="s2s_title">Kaydırarak uyutma</string>
@@ -68,16 +31,16 @@
 
     <!-- Kcal -->
     <string name="kcal_title">Ekran rengi</string>
-    <string name="kcal_summary">KCAL kullanarak renk kalibrasyonunu görüntüle</string>
-    <string name="kcal_enabled_title">KCAL etkinleştir</string>
-    <string name="kcal_enabled_summary">KCAL kullanarak ekran kalibrasyonunu açın</string>
+    <string name="kcal_summary">Kcal kullanarak renk kalibrasyonunu görüntüle</string>
+    <string name="kcal_enabled_title">Kcal etkinleştir</string>
+    <string name="kcal_enabled_summary">Kcal kullanarak ekran kalibrasyonunu açın</string>
     <string name="kcal_red">Kırmızı</string>
     <string name="kcal_green">Yeşil</string>
     <string name="kcal_blue">Mavi</string>
     <string name="kcal_saturation">Doygunluk</string>
     <string name="kcal_contrast">Kontrast</string>
     <string name="menu_reset">Sıfırla</string>
-    <string name="kcal_color_temp">Renk sıcaklığı (K)</string>
+    <string name="kcal_color_temp">Renk sıcaklığı (k)</string>
 
     <!-- Spectrum Profiles -->
     <string name="spectrum_profile_title">Kernel</string>
