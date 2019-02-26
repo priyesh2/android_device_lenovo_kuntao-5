@@ -133,9 +133,6 @@ on boot
     setprop net.tcp.buffersize.evdo "4094,87380,524288,4096,16384,262144"
     setprop net.tcp.2g_init_rwnd 10
 
-    # Prevents permission denied error for telephony
-    chmod 0644 /proc/cmdline
-
     setprop wifi.interface wlan0
 
     chmod 0444 /sys/devices/platform/msm_hsusb/gadget/usb_state
