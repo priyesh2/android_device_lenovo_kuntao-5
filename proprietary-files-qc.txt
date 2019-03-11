@@ -389,6 +389,9 @@ vendor/lib64/libqmi_encdec.so
 vendor/lib64/libqmiservices.so
 
 # Radio - from Mi A1 tissot_sprout 9 PKQ1.180917.001.V10.0.2.0.PDHMIFK release-keys
+-app/uceShimService/uceShimService.apk
+-app/datastatusnotification/datastatusnotification.apk
+-app/SimSettings/SimSettings.apk
 -vendor/app/QtiTelephonyService/QtiTelephonyService.apk
 vendor/etc/permissions/qcrilhook.xml
 vendor/etc/permissions/telephonyservice.xml
