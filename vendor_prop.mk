@@ -84,10 +84,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.frp.pst=/dev/block/platform/soc/7824900.sdhci/by-name/config
 
-# Fp Gestures
-PRODUCT_PROPERTY_OVERRIDES += \
-    persist.sys.fp.navigation=1
-
 # Fingerprint
 PRODUCT_PROPERTY_OVERRIDES += \
     log.tag.synaFpHal=W \
