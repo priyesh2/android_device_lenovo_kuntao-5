@@ -869,17 +869,7 @@ on post-fs-data
     mkdir /data/vendor/display 0770 system graphics
 
     #Create directories for Fingerprint
-    mkdir /data/vendor/stargate 0770 system system
-    mkdir /data/vendor/stargate/bg_estimation 0770 system system
-    mkdir /data/vendor/stargate/calib_test 0770 system system
-    mkdir /data/vendor/stargate/database 0770 system system
     mkdir /data/validity 0775 system system
-
-    # Create directories for tombstones
-    mkdir /data/tombstones/modem 0771 system system
-    mkdir /data/tombstones/lpass 0771 system system
-    mkdir /data/tombstones/wcnss 0771 system system
-    mkdir /data/tombstones/dsps 0771 system system
 
     # Create directory for tftp
     mkdir /data/vendor/tombstones 0771 system system
@@ -963,26 +953,14 @@ on post-fs-data
     #Create directories for Location services
     mkdir /data/vendor/location 0770 gps gps
     mkdir /data/vendor/location/mq 0770 gps gps
-    mkdir /data/vendor/location/xtwifi 0770 gps gps
     mkdir /dev/socket/location 0770 gps gps
     mkdir /dev/socket/location/mq 0770 gps gps
     mkdir /dev/socket/location/xtra 0770 gps gps
-    mkdir /data/vendor/location-partner 0770 gps gps
-    mkdir /data/vendor/location-partner/dre 0770 gps gps
-    mkdir /data/vendor/location-partner/ppe 0770 gps gps
-    mkdir /dev/socket/location 0770 gps gps
-    mkdir /dev/socket/location/ehub 0770 gps gps
 
     # create QDMA dropbox
     mkdir /data/vendor/qdmastats 0700 system system
     mkdir /data/vendor/qdma 0770 system system
     mkdir /dev/socket/qdma 2770 system system
-
-    #Create directory from IMS services
-    mkdir /data/shared 0755 system system
-
-    #Create directory for FOTA
-    mkdir /data/fota 0771 system system
 
     # Create /data/vendor/time folder for time-services
     mkdir /data/vendor/time/ 0700 system system
