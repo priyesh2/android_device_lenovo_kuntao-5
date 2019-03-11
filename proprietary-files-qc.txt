@@ -350,8 +350,8 @@ vendor/lib64/hw/vendor.qti.hardware.alarm@1.0-impl.so
 vendor/lib64/vendor.qti.hardware.alarm@1.0.so
 
 # QMI - from Mi A1 tissot_sprout 9 PKQ1.180917.001.V10.0.2.0.PDHMIFK release-keys
-vendor/etc/permissions/qti_libpermissions.xml
-vendor/etc/permissions/qti_permissions.xml
+etc/permissions/qti_libpermissions.xml
+etc/permissions/qti_permissions.xml
 lib/libdiag_system.so
 lib/libqmi_cci_system.so
 lib64/libdiag_system.so
@@ -392,11 +392,11 @@ vendor/lib64/libqmiservices.so
 -app/uceShimService/uceShimService.apk
 -app/datastatusnotification/datastatusnotification.apk
 -app/SimSettings/SimSettings.apk
--vendor/app/QtiTelephonyService/QtiTelephonyService.apk
-vendor/etc/permissions/qcrilhook.xml
-vendor/etc/permissions/telephonyservice.xml
-vendor/framework/QtiTelephonyServicelibrary.jar
-vendor/framework/qcrilhook.jar
+-app/QtiTelephonyService/QtiTelephonyService.apk
+etc/permissions/qcrilhook.xml
+etc/permissions/telephonyservice.xml
+framework/QtiTelephonyServicelibrary.jar
+framework/qcrilhook.jar
 framework/qti-telephony-common.jar
 -priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
 vendor/bin/ATFWD-daemon
