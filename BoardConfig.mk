@@ -199,10 +199,6 @@ TARGET_RIL_VARIANT := caf
 BOARD_SEPOLICY_DIRS += device/lenovo/kuntao/sepolicy
 include device/qcom/sepolicy/sepolicy.mk
 
-# GPS
-USE_DEVICE_SPECIFIC_GPS := true
-BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
-
 # Hidl manifests
 DEVICE_MANIFEST_FILE := device/lenovo/kuntao/manifest.xml
 DEVICE_MATRIX_FILE := device/lenovo/kuntao/compatibility_matrix.xml
