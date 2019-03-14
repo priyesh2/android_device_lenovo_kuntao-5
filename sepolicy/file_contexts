@@ -18,7 +18,7 @@
 /sys/devices/soc/78b8000\.i2c/i2c-4/4-0057/power_supply/ext-charger(/.*)?  u:object_r:sysfs_usb_supply:s0
 /sys/devices/virtual/hwmon/hwmon5/temp1_input                              u:object_r:sysfs_temperature:s0
 
-# Lenovo parts
+# AdvancedControls&&Lenovo parts
 /sys/devices/soc/qpnp-flash-led-22/leds/led:torch_0/max_brightness          u:object_r:sysfs_torch:s0
 /sys/devices/soc/qpnp-flash-led-22/leds/led:torch_1/max_brightness          u:object_r:sysfs_torch:s0
 /sys/devices/soc/qpnp-fg-18/power_supply/bms/hi_power           u:object_r:sysfs_battery_supply:s0

@@ -91,10 +91,6 @@ PRODUCT_COPY_FILES += \
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt
 
-# Advanced controls
-PRODUCT_PACKAGES += \
-    AdvancedControls
-
 # ANT+
 PRODUCT_PACKAGES += \
     AntHalService \
@@ -103,6 +99,10 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     external/ant-wireless/antradio-library/com.dsi.ant.antradio_library.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/com.dsi.ant.antradio_library.xml
+
+# AdvancedControls
+PRODUCT_PACKAGES += \
+    AdvancedControls
 
 # Charger
 PRODUCT_PACKAGES += \
@@ -148,6 +148,10 @@ PRODUCT_COPY_FILES += \
 # Doze mode
 PRODUCT_PACKAGES += \
     LenovoDoze
+
+#Dirac
+PRODUCT_PACKAGES += \
+    LenovoDirac
 
 # Lenovo Parts
 PRODUCT_PACKAGES += \
@@ -206,7 +210,9 @@ PRODUCT_PACKAGES += \
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.base@1.0 \
-    android.hidl.manager@1.0
+    android.hidl.base@1.0_system \
+    android.hidl.manager@1.0 \
+    android.hidl.manager@1.0_system
 
 # IMS
 PRODUCT_PACKAGES += \
@@ -335,12 +341,14 @@ PRODUCT_PACKAGES += \
     fstab.qcom \
     init.qcom.rc \
     init.mmi.usb.rc \
+    init.advandec.parts.rc \
     init.msm.usb.configfs.rc \
     ueventd.qcom.rc
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
-    vendor.lineage.livedisplay@2.0-service-sdm
+    vendor.lineage.livedisplay@2.0-service-sdm \
+    vendor.lineage.livedisplay@2.0-service-sysfs
 
 # Trust HAL
 PRODUCT_PACKAGES += \

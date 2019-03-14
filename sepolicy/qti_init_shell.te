@@ -1,4 +1,4 @@
-# Lenovo parts
+# AdvancedControls&&Lenovo parts
 allow qti_init_shell sysfs_kcal:dir search;
 allow qti_init_shell sysfs_kcal:file rw_file_perms;
 allow qti_init_shell sysfs_vibrator:dir search;

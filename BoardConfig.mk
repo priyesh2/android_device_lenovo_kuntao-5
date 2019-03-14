@@ -141,7 +141,7 @@ TARGET_KERNEL_ARCH := arm64
 TARGET_KERNEL_CROSS_COMPILE_PREFIX := aarch64-linux-android-
 TARGET_KERNEL_HEADER_ARCH := arm64
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
-TARGET_KERNEL_CONFIG := kuntao_defconfig
+TARGET_KERNEL_CONFIG := lineageos_kuntao_defconfig
 
 # Lineage Hardware
 JAVA_SOURCE_OVERLAYS := org.lineageos.hardware|device/lenovo/kuntao/lineagehw|**/*.java
@@ -179,7 +179,7 @@ TARGET_USES_INTERACTION_BOOST := true
 # Enable real time lockscreen charging current values
 BOARD_GLOBAL_CFLAGS += -DBATTERY_REAL_INFO
 
-# Property
+# Treble
 BOARD_PROPERTY_OVERRIDES_SPLIT_ENABLED := true
 
 # Qualcomm support
@@ -199,6 +199,10 @@ TARGET_RIL_VARIANT := caf
 BOARD_SEPOLICY_DIRS += device/lenovo/kuntao/sepolicy
 include device/qcom/sepolicy/sepolicy.mk
 
+# GPS
+USE_DEVICE_SPECIFIC_GPS := true
+BOARD_VENDOR_QCOM_GPS_LOC_API_HARDWARE := $(TARGET_BOARD_PLATFORM)
+
 # Hidl manifests
 DEVICE_MANIFEST_FILE := device/lenovo/kuntao/manifest.xml
 DEVICE_MATRIX_FILE := device/lenovo/kuntao/compatibility_matrix.xml
@@ -212,10 +216,10 @@ BOARD_HAS_QCOM_WLAN := true
 BOARD_HOSTAPD_DRIVER := NL80211
 BOARD_HOSTAPD_PRIVATE_LIB := lib_driver_cmd_qcwcn
 BOARD_WLAN_DEVICE := qcwcn
-PRODUCT_VENDOR_MOVE_ENABLED := true
-TARGET_DISABLE_WCNSS_CONFIG_COPY := true
 BOARD_WPA_SUPPLICANT_DRIVER := NL80211
 BOARD_WPA_SUPPLICANT_PRIVATE_LIB := lib_driver_cmd_qcwcn
+PRODUCT_VENDOR_MOVE_ENABLED := true
+TARGET_DISABLE_WCNSS_CONFIG_COPY := true
 WIFI_DRIVER_FW_PATH_AP := "ap"
 WIFI_DRIVER_FW_PATH_STA := "sta"
 WPA_SUPPLICANT_VERSION := VER_0_8_X

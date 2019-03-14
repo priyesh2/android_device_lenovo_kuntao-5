@@ -26,6 +26,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.voice.path.for.pcm.voip=true \
     ro.af.client_heap_size_kbyte=7168 \
     persist.vendor.audio.hw.binder.size_kbyte=1024
+    persist.audio.dirac.speaker=true \
 
 # Bluetooh
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -33,8 +34,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Camera
 PRODUCT_PROPERTY_OVERRIDES += \
-    vendor.camera.hal1.packagelist=com.whatsapp,com.android.facelock \
-    camera.hal1.packagelist=com.whatsapp,com.android.facelock \
+    vendor.camera.hal1.packagelist=com.skype.raider,com.android.facelock,com.google.android.talk \
     persist.vendor.camera.display.umax=1920x1080 \
     persist.vendor.camera.display.lmax=1280x720 \
     vidc.enc.dcvs.extra-buff-count=2 \
@@ -63,8 +63,10 @@ PRODUCT_PROPERTY_OVERRIDES += \
     ro.opengles.version=196610 \
     ro.vendor.display.cabl=0 \
     ro.sf.lcd_density=450 \
-    vendor.display.disable_skip_validate=1 \
     vendor.display.disable_rotator_downscale=1
+    vendor.display.disable_skip_validate=1 \
+    vendor.display.enable_default_color_mode=1 \
+  
 
 # Miracast
 PRODUCT_PROPERTY_OVERRIDES += \

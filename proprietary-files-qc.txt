@@ -31,6 +31,21 @@ vendor/lib64/libqtigef.so
 vendor/lib64/soundfx/libqcbassboost.so
 vendor/lib64/soundfx/libqcvirt.so
 
+# AudioDirac
+vendor/etc/diracmobile.config
+vendor/lib/libDiracAPI_SHARED
+vendor/lib/soundfx/libdirac.so
+
+# Audiosphere
+vendor/lib/soundfx/libasphere.so
+vendor/lib64/soundfx/libasphere.so
+
+# Bluetooth (aptX) - from crosshatch - PD1A.180720.030
+lib/libaptX_encoder.so|984739a0bc968e18f75ced205733fe3f51c2d4f0  
+lib/libaptXHD_encoder.so|974c486e4ca03faa0713553d9dfe2995ac93e01c  
+ib64/libaptX_encoder.so|0cebad28afcf29f931bdc2d24fce2730dc882ecf  
+lib64/libaptXHD_encoder.so|90f47f10af28b3ead143200cb4370b847c513127  
+
 # Bluetooth - from Mi A1 tissot_sprout 9 PKQ1.180917.001.V10.0.2.0.PDHMIFK release-keys
 vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti
 vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc
@@ -48,7 +63,10 @@ vendor/lib64/vendor.qti.hardware.fm@1.0.so
 etc/permissions/cneapiclient.xml|15831adf0e80243042b90c734eea0a68eb8ae9c9
 etc/permissions/com.quicinc.cne.xml|e99e631d8b06ba4680529e9e4004d8d05baf6904
 framework/cneapiclient.jar|af7db889362e562a4c5073bb6aae32947218abf0
+framework/com.quicinc.cne.api-V1.0-java.jar
 framework/com.quicinc.cne.jar
+lib/vendor.qti.hardware.data.latency@1.0.so
+lib64/vendor.qti.hardware.data.latency@1.0.so
 -priv-app/CNEService/CNEService.apk
 vendor/bin/cnd|81c0f2beecb6f375b4d460adbfb739b8aa970a70
 vendor/etc/cne/andsfCne.xml
